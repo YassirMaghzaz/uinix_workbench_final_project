@@ -1,6 +1,6 @@
 #!/bin/bash
 	
-function guessingname(){
+function guessinggame(){
 	local count=0
 	while [[ $count -eq 0 ]]
 	do
@@ -22,6 +22,6 @@ function guessingname(){
 
 echo "Welcome back to the game: "
 echo ""
-guessingname
+guessinggame
 echo "See you again !!!"
 echo "End of the game"
